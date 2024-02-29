@@ -51,7 +51,7 @@ describe("BookingForm", () => {
 
       const afterSumbit = vi.fn();
 
-      const { getByLabelText, getByText, debug } = render(
+      const { getByLabelText, getByText } = render(
         <BookingForm afterSumbit={afterSumbit} />,
       );
 

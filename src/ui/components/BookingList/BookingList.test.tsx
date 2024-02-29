@@ -7,7 +7,7 @@ import { render, screen, fireEvent } from "@/utils/settings/tests/utilities";
 describe("BookingList", () => {
   describe("No bookings", () => {
     it("should show no bookings message and delete booking", async () => {
-      const { debug } = render(
+      render(
         <BookingContext.BookingProvider>
           <BookingList />
         </BookingContext.BookingProvider>,
