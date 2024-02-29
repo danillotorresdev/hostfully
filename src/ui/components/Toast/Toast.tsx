@@ -8,8 +8,9 @@ export type ToastProps = {
   type?: "success" | "error" | "warning";
 };
 
+export const ToastComponent = ({ message, type }: ToastProps) => (
+  <S.ToastContainer type={type}>{message}</S.ToastContainer>
+);
+
 export const Toast = ({ message, type }: ToastProps) =>
-  createPortal(
-    <S.ToastContainer type={type}>{message}</S.ToastContainer>,
-    portalRoot,
-  );
+  createPortal(<ToastComponent message={message} type={type} />, portalRoot);

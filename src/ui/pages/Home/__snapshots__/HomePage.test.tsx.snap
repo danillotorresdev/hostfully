@@ -1,0 +1,605 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`HomePage > should render the component 1`] = `
+<div>
+  <div
+    class="mocked-styled-65 h16k1m1e"
+  >
+    <header
+      class="mocked-styled-62 hl4mxfd"
+    >
+      <img
+        alt="Logo"
+        class="mocked-styled-61 le32cth"
+        src="https://www.hostfully.com/wp-content/uploads/2022/08/logo-1.svg"
+        style="width: 200px; height: auto; display: block;"
+      />
+      <nav
+        class="mocked-styled-63 n2miw7l"
+      >
+        <a
+          class="mocked-styled-64 n3754ll"
+          href="#"
+        >
+          Home
+        </a>
+        <a
+          class="mocked-styled-64 n3754ll"
+          href="#"
+        >
+          About
+        </a>
+        <a
+          class="mocked-styled-64 n3754ll"
+          href="#"
+        >
+          Contact
+        </a>
+      </nav>
+    </header>
+    <div
+      class="mocked-styled-68 b1m0e88l"
+    >
+      <div
+        class="mocked-styled-67 cf3va6u"
+      >
+        <h1
+          class="mocked-styled-66 t1wn7sgz"
+        >
+          Your property management made easy: 
+          <br />
+          <span>
+            Our platform, your success!
+          </span>
+        </h1>
+        <form
+          class="form f1q86ce6"
+        >
+          <div
+            class="mocked-styled-2 i92tumy"
+          >
+            <div>
+              <div
+                class="mocked-styled-21 i19zws4p"
+              >
+                <label
+                  class="mocked-styled-22 l5v2eyb"
+                  for="Origin"
+                >
+                  Origin
+                </label>
+                <input
+                  class="mocked-styled-23 i1hv9n31"
+                  id="Origin"
+                  placeholder="City's name"
+                  type="text"
+                  value=""
+                />
+              </div>
+              <div
+                class="mocked-styled-24 skesand"
+              >
+                <ul
+                  class="mocked-styled-25 s1qvsmxh"
+                />
+              </div>
+            </div>
+            <div
+              class="mocked-styled-3 e1hmdc16"
+            />
+          </div>
+          <div
+            class="mocked-styled-2 i92tumy"
+          >
+            <div>
+              <div
+                class="mocked-styled-21 i19zws4p"
+              >
+                <label
+                  class="mocked-styled-22 l5v2eyb"
+                  for="Destination"
+                >
+                  Destination
+                </label>
+                <input
+                  class="mocked-styled-23 i1hv9n31"
+                  id="Destination"
+                  placeholder="City's name"
+                  type="text"
+                  value=""
+                />
+              </div>
+              <div
+                class="mocked-styled-24 skesand"
+              >
+                <ul
+                  class="mocked-styled-25 s1qvsmxh"
+                />
+              </div>
+            </div>
+            <div
+              class="mocked-styled-3 e1hmdc16"
+            />
+          </div>
+          <div
+            class="mocked-styled-2 i92tumy"
+          >
+            <div
+              class="mocked-styled-4 cx3igb0"
+            >
+              <label
+                class="mocked-styled-6 d1m4j7uz"
+              >
+                Date
+              </label>
+              <div
+                aria-label="date"
+                class="mocked-styled-5 d6fdk0w"
+              >
+                <div
+                  class="mocked-styled-9 dv2dzrz"
+                >
+                  <div
+                    class="mocked-styled-10 d1xj2x14"
+                  >
+                    <svg
+                      class="svg svg-calendar"
+                      style="width: 24px; height: 24px;"
+                      viewBox="0 0 1024 1024"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <use
+                        xlink:href="/assets/sprite.svg#calendar"
+                      />
+                    </svg>
+                    Departure
+                  </div>
+                  <div
+                    class="mocked-styled-10 d1xj2x14"
+                  >
+                    <svg
+                      class="svg svg-calendar"
+                      style="width: 24px; height: 24px;"
+                      viewBox="0 0 1024 1024"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <use
+                        xlink:href="/assets/sprite.svg#calendar"
+                      />
+                    </svg>
+                    Return
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="mocked-styled-3 e1hmdc16"
+            />
+          </div>
+          <div
+            class="mocked-styled-27 c1u669jx"
+          >
+            <label
+              class="mocked-styled-26 lzhktur"
+            >
+              Passengers
+            </label>
+            <button
+              class="mocked-styled-29 pfu8a7v"
+              type="button"
+            >
+              <svg
+                class="svg svg-member"
+                style="width: 24px; height: 24px;"
+                viewBox="0 0 1024 1024"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <use
+                  xlink:href="/assets/sprite.svg#member"
+                />
+              </svg>
+              1
+               passenger
+            </button>
+          </div>
+          <div
+            class="mocked-styled-1 bezp364"
+          >
+            <button
+              class="mocked-styled-20 bb8cb6j"
+              style="--bb8cb6j-0: 55px; --bb8cb6j-1: 16px; --bb8cb6j-2: 15px 30px; --bb8cb6j-3: #2D2AA5; --bb8cb6j-4: #fff; --bb8cb6j-5: #40caa1;"
+              type="submit"
+            >
+              Create
+               Booking
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div
+      class="mocked-styled-67 cf3va6u"
+    >
+      <div
+        class="mocked-styled-41 crlin7j"
+      >
+        <h2
+          class="mocked-styled-42 t1bjt9tu"
+        >
+          Bookings
+        </h2>
+        <div
+          class="mocked-styled-43 csr9ikx"
+        >
+          <div
+            class="mocked-styled-44 cx2fecm"
+          >
+            <span
+              class="mocked-styled-46 ta36wq1"
+            >
+              Great Pyramid of Giza
+            </span>
+            <span
+              class="mocked-styled-47 s1a79fbf"
+            >
+              Booking for 
+              1 Adult 
+                | Jan 11, 2024 to Jan 15, 2024
+            </span>
+            <div
+              class="mocked-styled-45 c16asigh"
+            >
+              <button
+                class="mocked-styled-20 bb8cb6j"
+                style="--bb8cb6j-0: 40px; --bb8cb6j-1: 14px; --bb8cb6j-2: 0; --bb8cb6j-3: transparent; --bb8cb6j-4: #2D2AA5; --bb8cb6j-5: none;"
+                title="Edit booking"
+              >
+                <svg
+                  class="svg svg-edit"
+                  style="width: 24px; height: 24px;"
+                  viewBox="0 0 1024 1024"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <use
+                    xlink:href="/assets/sprite.svg#edit"
+                  />
+                </svg>
+              </button>
+              <button
+                class="mocked-styled-20 bb8cb6j"
+                style="--bb8cb6j-0: 40px; --bb8cb6j-1: 14px; --bb8cb6j-2: 0; --bb8cb6j-3: transparent; --bb8cb6j-4: #2D2AA5; --bb8cb6j-5: none;"
+                title="Delete booking"
+              >
+                <svg
+                  class="svg svg-trash"
+                  style="width: 24px; height: 24px;"
+                  viewBox="0 0 1024 1024"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <use
+                    xlink:href="/assets/sprite.svg#trash"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div
+            class="mocked-styled-49 c6r2qql"
+          >
+            <div
+              class="mocked-styled-51 ix3zkq7"
+            >
+              <div
+                class="mocked-styled-52 c1n5q6aa"
+              >
+                <div>
+                  <svg
+                    class="svg svg-departure"
+                    style="width: 16px; height: 16px;"
+                    viewBox="0 0 1024 1024"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <use
+                      xlink:href="/assets/sprite.svg#departure"
+                    />
+                  </svg>
+                   
+                  <b>
+                    Departure
+                  </b>
+                </div>
+                <span
+                  class="mocked-styled-53 dsggpze"
+                >
+                  Thu, Jan 11, 2024
+                </span>
+              </div>
+              <div
+                class="mocked-styled-54 c1yloby"
+              >
+                <span
+                  title="Cairo"
+                >
+                  Cairo
+                   
+                </span>
+                <svg
+                  class="svg svg-arrow-foward"
+                  style="width: 16px; height: 16px;"
+                  viewBox="0 0 1024 1024"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <use
+                    xlink:href="/assets/sprite.svg#arrow-foward"
+                  />
+                </svg>
+                 
+                <span
+                  title="Great Pyramid of Giza"
+                >
+                  Great Pyramid of Giz...
+                </span>
+              </div>
+            </div>
+            <div
+              class="mocked-styled-51 ix3zkq7"
+            >
+              <div
+                class="mocked-styled-52 c1n5q6aa"
+              >
+                <div>
+                  <svg
+                    class="svg svg-arrival"
+                    style="width: 16px; height: 16px;"
+                    viewBox="0 0 1024 1024"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <use
+                      xlink:href="/assets/sprite.svg#arrival"
+                    />
+                  </svg>
+                   
+                  <b>
+                    Return
+                  </b>
+                </div>
+                <span
+                  class="mocked-styled-53 dsggpze"
+                >
+                  Mon, Jan 15, 2024
+                </span>
+              </div>
+              <div
+                class="mocked-styled-54 c1yloby"
+              >
+                <span
+                  title="Great Pyramid of Giza"
+                >
+                  Great Pyramid of Giz...
+                   
+                </span>
+                <svg
+                  class="svg svg-arrow-back"
+                  style="width: 16px; height: 16px;"
+                  viewBox="0 0 1024 1024"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <use
+                    xlink:href="/assets/sprite.svg#arrow-back"
+                  />
+                </svg>
+                 
+                <span
+                  title="Cairo"
+                >
+                  Cairo
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="mocked-styled-50 c1wkgrf8"
+          >
+            <svg
+              class="svg svg-members"
+              style="width: 16px; height: 16px;"
+              viewBox="0 0 1024 1024"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <use
+                xlink:href="/assets/sprite.svg#members"
+              />
+            </svg>
+            1 Adult 
+          </div>
+        </div>
+        <div
+          class="mocked-styled-43 csr9ikx"
+        >
+          <div
+            class="mocked-styled-44 cx2fecm"
+          >
+            <span
+              class="mocked-styled-46 ta36wq1"
+            >
+              Mausoleum at Halicarnassus
+            </span>
+            <span
+              class="mocked-styled-47 s1a79fbf"
+            >
+              Booking for 
+              2 Adults and 1 Child
+                | Jan 11, 2024 to Jan 15, 2024
+            </span>
+            <div
+              class="mocked-styled-45 c16asigh"
+            >
+              <button
+                class="mocked-styled-20 bb8cb6j"
+                style="--bb8cb6j-0: 40px; --bb8cb6j-1: 14px; --bb8cb6j-2: 0; --bb8cb6j-3: transparent; --bb8cb6j-4: #2D2AA5; --bb8cb6j-5: none;"
+                title="Edit booking"
+              >
+                <svg
+                  class="svg svg-edit"
+                  style="width: 24px; height: 24px;"
+                  viewBox="0 0 1024 1024"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <use
+                    xlink:href="/assets/sprite.svg#edit"
+                  />
+                </svg>
+              </button>
+              <button
+                class="mocked-styled-20 bb8cb6j"
+                style="--bb8cb6j-0: 40px; --bb8cb6j-1: 14px; --bb8cb6j-2: 0; --bb8cb6j-3: transparent; --bb8cb6j-4: #2D2AA5; --bb8cb6j-5: none;"
+                title="Delete booking"
+              >
+                <svg
+                  class="svg svg-trash"
+                  style="width: 24px; height: 24px;"
+                  viewBox="0 0 1024 1024"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <use
+                    xlink:href="/assets/sprite.svg#trash"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div
+            class="mocked-styled-49 c6r2qql"
+          >
+            <div
+              class="mocked-styled-51 ix3zkq7"
+            >
+              <div
+                class="mocked-styled-52 c1n5q6aa"
+              >
+                <div>
+                  <svg
+                    class="svg svg-departure"
+                    style="width: 16px; height: 16px;"
+                    viewBox="0 0 1024 1024"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <use
+                      xlink:href="/assets/sprite.svg#departure"
+                    />
+                  </svg>
+                   
+                  <b>
+                    Departure
+                  </b>
+                </div>
+                <span
+                  class="mocked-styled-53 dsggpze"
+                >
+                  Thu, Jan 11, 2024
+                </span>
+              </div>
+              <div
+                class="mocked-styled-54 c1yloby"
+              >
+                <span
+                  title="Bodrum"
+                >
+                  Bodrum
+                   
+                </span>
+                <svg
+                  class="svg svg-arrow-foward"
+                  style="width: 16px; height: 16px;"
+                  viewBox="0 0 1024 1024"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <use
+                    xlink:href="/assets/sprite.svg#arrow-foward"
+                  />
+                </svg>
+                 
+                <span
+                  title="Mausoleum at Halicarnassus"
+                >
+                  Mausoleum at Halicar...
+                </span>
+              </div>
+            </div>
+            <div
+              class="mocked-styled-51 ix3zkq7"
+            >
+              <div
+                class="mocked-styled-52 c1n5q6aa"
+              >
+                <div>
+                  <svg
+                    class="svg svg-arrival"
+                    style="width: 16px; height: 16px;"
+                    viewBox="0 0 1024 1024"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <use
+                      xlink:href="/assets/sprite.svg#arrival"
+                    />
+                  </svg>
+                   
+                  <b>
+                    Return
+                  </b>
+                </div>
+                <span
+                  class="mocked-styled-53 dsggpze"
+                >
+                  Mon, Jan 15, 2024
+                </span>
+              </div>
+              <div
+                class="mocked-styled-54 c1yloby"
+              >
+                <span
+                  title="Mausoleum at Halicarnassus"
+                >
+                  Mausoleum at Halicar...
+                   
+                </span>
+                <svg
+                  class="svg svg-arrow-back"
+                  style="width: 16px; height: 16px;"
+                  viewBox="0 0 1024 1024"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <use
+                    xlink:href="/assets/sprite.svg#arrow-back"
+                  />
+                </svg>
+                 
+                <span
+                  title="Bodrum"
+                >
+                  Bodrum
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="mocked-styled-50 c1wkgrf8"
+          >
+            <svg
+              class="svg svg-members"
+              style="width: 16px; height: 16px;"
+              viewBox="0 0 1024 1024"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <use
+                xlink:href="/assets/sprite.svg#members"
+              />
+            </svg>
+            2 Adults and 1 Child
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

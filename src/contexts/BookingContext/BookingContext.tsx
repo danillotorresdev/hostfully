@@ -131,7 +131,6 @@ export const BookingProvider = ({ children }: BookingProviderProps) => {
       newBookingStartDate.getTime() === existingBookingStartDate.getTime() &&
       newBookingEndDate.getTime() === existingBookingEndDate.getTime()
     ) {
-      console.log("same date");
       return true;
     }
 

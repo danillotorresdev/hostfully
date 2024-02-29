@@ -108,10 +108,14 @@ export const CalendarWrapper = styled.div`
   border-radius: 0.5rem;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
   z-index: 10;
-  width: 90%;
+  margin: 0 auto;
+  left: 50%;
+  transform: translateX(-50%);
 
   @media (min-width: 768px) {
     width: 605px;
+    left: inherit;
+    transform: none;
   }
 `;
 

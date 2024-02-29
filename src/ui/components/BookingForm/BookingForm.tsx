@@ -1,4 +1,4 @@
-import { useBookingContext } from "@/contexts/BookingContext/BookingContext";
+import { useBookingContext } from "../../../contexts/BookingContext/BookingContext";
 import * as S from "./BookingForm.styles";
 import { z } from "zod";
 import { useForm, SubmitHandler } from "react-hook-form";

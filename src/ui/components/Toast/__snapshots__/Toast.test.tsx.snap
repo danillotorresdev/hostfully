@@ -1,0 +1,13 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Toast > should render the component 1`] = `
+<div>
+  <div
+    class="mocked-styled-0 tjr5k2h"
+    style="--tjr5k2h-0: #4caf50;"
+    type="success"
+  >
+    This is a message
+  </div>
+</div>
+`;

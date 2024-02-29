@@ -16,7 +16,10 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "prepare": "husky install",
-    "test": "vitest"
+    "test": "vitest",
+    "coverage": "vitest run --coverage",
+    "test-ui": "vitest --ui",
+    "test:watch": "vitest --watch"
   },
   "dependencies": {
     "-": "^0.0.1",

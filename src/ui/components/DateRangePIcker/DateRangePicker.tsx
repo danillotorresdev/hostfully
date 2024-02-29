@@ -77,6 +77,7 @@ export const DateRangePicker = ({
       const isDisabled = date < today;
       days.push(
         <S.Day
+          className="dayPicker-day"
           key={i}
           isSelected={!!isSelected}
           isInRange={!!isInRange}
@@ -115,10 +116,12 @@ export const DateRangePicker = ({
     setShowCalendar(!showCalendar);
   };
 
+  console.log({ startDate, endDate });
+
   return (
     <S.Container>
-      <S.DateInputLabel>Date</S.DateInputLabel>
-      <S.DateInputContainer onClick={toggleCalendar}>
+      <S.DateInputLabel >Date</S.DateInputLabel>
+      <S.DateInputContainer onClick={toggleCalendar} aria-label="date">
         <S.DepartureReturnDateWrapper>
           <S.DepartureReturnContent>
             <Icon name="calendar" />

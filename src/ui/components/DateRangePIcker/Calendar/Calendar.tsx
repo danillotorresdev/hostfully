@@ -26,10 +26,14 @@ export const Calendar = ({
   renderDaysForMonth,
   className,
 }: CalendarProps) => (
-  <S.CalendarContainer className={className}>
+  <S.CalendarContainer className={className} data-testId="leftCalendar">
     <S.Calendar>
       <S.Header>
-        <S.ArrowButton type="button" onClick={handlePrevMonth}>
+        <S.ArrowButton
+          type="button"
+          onClick={handlePrevMonth}
+          aria-label="previous month"
+        >
           <Icon name="arrow-left" size="sm" />
         </S.ArrowButton>
         <S.MonthSelector>
@@ -40,7 +44,11 @@ export const Calendar = ({
             })}
           </S.MonthName>
         </S.MonthSelector>
-        <S.ArrowButton type="button" onClick={handleNextMonth}>
+        <S.ArrowButton
+          type="button"
+          onClick={handleNextMonth}
+          aria-label="next month"
+        >
           <Icon name="arrow-right" size="sm" />
         </S.ArrowButton>
       </S.Header>
@@ -50,7 +58,7 @@ export const Calendar = ({
     </S.Calendar>
 
     {!mediaQuery.matches && (
-      <S.Calendar>
+      <S.Calendar data-testid="rightCalendar">
         <S.Header>
           <S.ArrowButton type="button" onClick={handlePrevMonth}>
             <Icon name="arrow-left" size="sm" />

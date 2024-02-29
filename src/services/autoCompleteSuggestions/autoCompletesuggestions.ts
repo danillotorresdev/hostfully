@@ -17,7 +17,7 @@ type Place = {
   boundingbox: string;
 };
 
-type Places = Place[];
+export type Places = Place[];
 
 export const placesAutoCompleteSuggestions = (search: string) =>
   nominatimBaseAPI.get<Places>("/search.php", {
