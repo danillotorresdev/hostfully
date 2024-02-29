@@ -1,4 +1,4 @@
-# Hostifully Code Challenge Documentation
+# Hostfully Code Challenge Documentation
 
 ## Technologies Used
 
@@ -33,4 +33,4 @@ Zod is a TypeScript-first schema declaration and validation library. It allows f
 - **React Hook Form**: Offers easy-to-use hooks for building forms with efficient validation.
 - **Zod**: Employs strict type-safe schemas for data validation and transformation.
 
-These technologies were chosen to create a modern, efficient, and maintainable solution for the Hostifully code challenge, providing a solid foundation for building scalable and performant web applications.
+These technologies were chosen to create a modern, efficient, and maintainable solution for the Hostfully code challenge, providing a solid foundation for building scalable and performant web applications.

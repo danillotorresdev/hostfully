@@ -1,8 +1,8 @@
-# Hostifully Code Challenge Documentation
+# Hostfully Code Challenge Documentation
 
 ## System Design
 
-In this document, we'll discuss the system design approach adopted for the Hostifully code challenge. The project is structured following a modular and scalable architecture, with clear separation of concerns and reusable components.
+In this document, we'll discuss the system design approach adopted for the Hostfully code challenge. The project is structured following a modular and scalable architecture, with clear separation of concerns and reusable components.
 
 ### Component Structure
 
@@ -12,7 +12,7 @@ In this document, we'll discuss the system design approach adopted for the Hosti
 **Example**:
 
 ```
-hostifully-code-challenge/
+hostfully-code-challenge/
 ├── src/
 │   ├── ui/
 │   │   ├── components/
@@ -77,4 +77,4 @@ hostifully-code-challenge/
 
 ## Conclusion
 
-The system design of the Hostifully code challenge follows a modular and organized structure, with components, pages, utilities, and contexts each residing in dedicated directories. This design promotes code reusability, maintainability, and scalability, enabling efficient development and easier collaboration among team members. By structuring the project in this way, we ensure that the codebase remains clean, manageable, and adaptable to future changes and enhancements.
+The system design of the Hostfully code challenge follows a modular and organized structure, with components, pages, utilities, and contexts each residing in dedicated directories. This design promotes code reusability, maintainability, and scalability, enabling efficient development and easier collaboration among team members. By structuring the project in this way, we ensure that the codebase remains clean, manageable, and adaptable to future changes and enhancements.

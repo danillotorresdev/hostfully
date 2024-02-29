@@ -1,6 +1,6 @@
-# Hostifully Code Challenge Documentation: Best Practices
+# Hostfully Code Challenge Documentation: Best Practices
 
-In this document, we'll discuss the best practices employed in the Hostifully code challenge. These practices aim to enhance the readability, maintainability, and scalability of the codebase, ensuring a smooth development process and high-quality end product.
+In this document, we'll discuss the best practices employed in the Hostfully code challenge. These practices aim to enhance the readability, maintainability, and scalability of the codebase, ensuring a smooth development process and high-quality end product.
 
 ## Custom Hooks
 
@@ -74,4 +74,4 @@ Sprites are used to optimize the handling of SVG icons by reducing the number of
 
 ## Conclusion
 
-By adhering to these best practices, we ensure that the Hostifully code challenge follows industry standards and conventions, resulting in a well-structured, maintainable, and user-friendly application. Custom hooks, component composition, conditional rendering, and SVG sprite usage contribute to a codebase that is modular, reusable, and adaptable to changing requirements, ultimately leading to a more efficient development process and a higher quality end product.
+By adhering to these best practices, we ensure that the Hostfully code challenge follows industry standards and conventions, resulting in a well-structured, maintainable, and user-friendly application. Custom hooks, component composition, conditional rendering, and SVG sprite usage contribute to a codebase that is modular, reusable, and adaptable to changing requirements, ultimately leading to a more efficient development process and a higher quality end product.

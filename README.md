@@ -1,8 +1,8 @@
 **README.md**
 
-# Hostifully Code Challenge
+# Hostfully Code Challenge
 
-Welcome to the Hostifully code challenge repository! This project is designed to showcase best practices and demonstrate proficiency in modern web development technologies.
+Welcome to the Hostfully code challenge repository! This project is designed to showcase best practices and demonstrate proficiency in modern web development technologies.
 
 ## Installation and Setup
 
@@ -18,13 +18,13 @@ To install and configure the project, follow these steps:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/danillotorresdev/hostifully.git hostifully-code-challenge
+   git clone https://github.com/danillotorresdev/hostfully.git hostfully-code-challenge
    ```
 
 2. **Navigate to the project directory:**
 
    ```bash
-   cd hostifully-code-challenge
+   cd hostfully-code-challenge
    ```
 
 3. **Install dependencies:**
@@ -71,6 +71,6 @@ For this project, I've listed the main technologies I used in this documentation
 
 ## Support and Feedback
 
-If you have any questions, feedback, or suggestions, please feel free to [open an issue](https://github.com/danillotorresdev/hostifully/issues) or [contact me](danilloept@gmail.com).
+If you have any questions, feedback, or suggestions, please feel free to [open an issue](https://github.com/danillotorresdev/hostfully/issues) or [contact me](danilloept@gmail.com).
 
 
