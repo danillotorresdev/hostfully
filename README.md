@@ -64,8 +64,13 @@ For information on the best practices employed in this project, including custom
 
 To understand the system design choices made for this project, such as component structure, page organization, utility functions, and context management, please refer to the [System Design Documentation](./docs/system-design.md).
 
+## Documentation: Technologies Used
+
+For this project, I've listed the main technologies I used in this documentation. You can learn more through this [Technologies Used Documentation](./docs/Tech.md).
+
+
 ## Support and Feedback
 
-If you have any questions, feedback, or suggestions, please feel free to [open an issue](https://github.com/danillotorresdev/hostifully/issues) or [contact us](danilloept@gmail.com).
+If you have any questions, feedback, or suggestions, please feel free to [open an issue](https://github.com/danillotorresdev/hostifully/issues) or [contact me](danilloept@gmail.com).
 
 
