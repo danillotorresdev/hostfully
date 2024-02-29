@@ -116,20 +116,18 @@ export const DateRangePicker = ({
     setShowCalendar(!showCalendar);
   };
 
-  console.log({ startDate, endDate });
-
   return (
     <S.Container>
-      <S.DateInputLabel >Date</S.DateInputLabel>
+      <S.DateInputLabel>Date</S.DateInputLabel>
       <S.DateInputContainer onClick={toggleCalendar} aria-label="date">
         <S.DepartureReturnDateWrapper>
           <S.DepartureReturnContent>
             <Icon name="calendar" />
-            {startDate ? startDate.toLocaleDateString() : "Departure"}
+            {startDate ? startDate.toLocaleDateString() : "Check-in"}
           </S.DepartureReturnContent>
           <S.DepartureReturnContent>
             <Icon name="calendar" />
-            {endDate ? endDate.toLocaleDateString() : "Return"}
+            {endDate ? endDate.toLocaleDateString() : "Check-out"}
           </S.DepartureReturnContent>
         </S.DepartureReturnDateWrapper>
       </S.DateInputContainer>
