@@ -1,7 +1,7 @@
 import { Input, InputProps } from "@/ui/components/Input/Input";
 import { useAutoComplete } from "@/utils/hooks/useAutoComplete/useAutoComplete";
 import * as S from "./AutoCompleteInput.styles";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 type AutoCompleteInputProps = Omit<InputProps, "onChange"> & {
   onPlaceChange: (place: string) => void;
