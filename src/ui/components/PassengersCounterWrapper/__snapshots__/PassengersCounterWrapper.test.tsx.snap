@@ -1,0 +1,32 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`PassengerCounterWrapper > should show the correct number of passengers 1`] = `
+<DocumentFragment>
+  <div
+    class="mocked-styled-1 c1u669jx"
+  >
+    <label
+      class="mocked-styled-0 lzhktur"
+    >
+      Passengers
+    </label>
+    <button
+      class="mocked-styled-3 pfu8a7v"
+      type="button"
+    >
+      <svg
+        class="svg svg-member"
+        data-testid="icon-svg"
+        style="width: 24px; height: 24px;"
+        viewBox="0 0 1024 1024"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <use
+          xlink:href="/assets/sprite.svg#member"
+        />
+      </svg>
+      1 passenger
+    </button>
+  </div>
+</DocumentFragment>
+`;

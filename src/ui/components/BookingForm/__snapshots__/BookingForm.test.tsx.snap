@@ -1,0 +1,170 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`should match snapshot 1`] = `
+<DocumentFragment>
+  <form
+    class="form f1q86ce6"
+  >
+    <div
+      class="mocked-styled-2 i92tumy"
+    >
+      <div>
+        <div
+          class="mocked-styled-21 i19zws4p"
+        >
+          <label
+            class="mocked-styled-22 l5v2eyb"
+            for="Origin"
+          >
+            Origin
+          </label>
+          <input
+            class="mocked-styled-23 i1hv9n31"
+            id="Origin"
+            placeholder="City's name"
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          class="mocked-styled-24 skesand"
+        >
+          <ul
+            class="mocked-styled-25 s1qvsmxh"
+          />
+        </div>
+      </div>
+      <div
+        class="mocked-styled-3 e1hmdc16"
+      />
+    </div>
+    <div
+      class="mocked-styled-2 i92tumy"
+    >
+      <div>
+        <div
+          class="mocked-styled-21 i19zws4p"
+        >
+          <label
+            class="mocked-styled-22 l5v2eyb"
+            for="Destination"
+          >
+            Destination
+          </label>
+          <input
+            class="mocked-styled-23 i1hv9n31"
+            id="Destination"
+            placeholder="City's name"
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          class="mocked-styled-24 skesand"
+        >
+          <ul
+            class="mocked-styled-25 s1qvsmxh"
+          />
+        </div>
+      </div>
+      <div
+        class="mocked-styled-3 e1hmdc16"
+      />
+    </div>
+    <div
+      class="mocked-styled-2 i92tumy"
+    >
+      <div
+        class="mocked-styled-4 cx3igb0"
+      >
+        <label
+          class="mocked-styled-6 d1m4j7uz"
+        >
+          Date
+        </label>
+        <div
+          aria-label="date"
+          class="mocked-styled-5 d6fdk0w"
+        >
+          <div
+            class="mocked-styled-9 dv2dzrz"
+          >
+            <div
+              class="mocked-styled-10 d1xj2x14"
+            >
+              <svg
+                class="svg svg-calendar"
+                data-testid="icon-svg"
+                style="width: 24px; height: 24px;"
+                viewBox="0 0 1024 1024"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <use
+                  xlink:href="/assets/sprite.svg#calendar"
+                />
+              </svg>
+              Check-in
+            </div>
+            <div
+              class="mocked-styled-10 d1xj2x14"
+            >
+              <svg
+                class="svg svg-calendar"
+                data-testid="icon-svg"
+                style="width: 24px; height: 24px;"
+                viewBox="0 0 1024 1024"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <use
+                  xlink:href="/assets/sprite.svg#calendar"
+                />
+              </svg>
+              Check-out
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="mocked-styled-3 e1hmdc16"
+      />
+    </div>
+    <div
+      class="mocked-styled-27 c1u669jx"
+    >
+      <label
+        class="mocked-styled-26 lzhktur"
+      >
+        Passengers
+      </label>
+      <button
+        class="mocked-styled-29 pfu8a7v"
+        type="button"
+      >
+        <svg
+          class="svg svg-member"
+          data-testid="icon-svg"
+          style="width: 24px; height: 24px;"
+          viewBox="0 0 1024 1024"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <use
+            xlink:href="/assets/sprite.svg#member"
+          />
+        </svg>
+        1 passenger
+      </button>
+    </div>
+    <div
+      class="mocked-styled-1 bezp364"
+    >
+      <button
+        class="mocked-styled-20 bb8cb6j"
+        style="--bb8cb6j-0: 55px; --bb8cb6j-1: 16px; --bb8cb6j-2: 15px 30px; --bb8cb6j-3: #2D2AA5; --bb8cb6j-4: #fff; --bb8cb6j-5: #40caa1;"
+        type="submit"
+      >
+        Create Booking
+      </button>
+    </div>
+  </form>
+</DocumentFragment>
+`;

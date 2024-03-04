@@ -1,0 +1,56 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`should render with default values 1`] = `
+<DocumentFragment>
+  <div
+    class="mocked-styled-0 cx3igb0"
+  >
+    <label
+      class="mocked-styled-2 d1m4j7uz"
+    >
+      Date
+    </label>
+    <div
+      aria-label="date"
+      class="mocked-styled-1 d6fdk0w"
+    >
+      <div
+        class="mocked-styled-5 dv2dzrz"
+      >
+        <div
+          class="mocked-styled-6 d1xj2x14"
+        >
+          <svg
+            class="svg svg-calendar"
+            data-testid="icon-svg"
+            style="width: 24px; height: 24px;"
+            viewBox="0 0 1024 1024"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <use
+              xlink:href="/assets/sprite.svg#calendar"
+            />
+          </svg>
+          9/11/2024
+        </div>
+        <div
+          class="mocked-styled-6 d1xj2x14"
+        >
+          <svg
+            class="svg svg-calendar"
+            data-testid="icon-svg"
+            style="width: 24px; height: 24px;"
+            viewBox="0 0 1024 1024"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <use
+              xlink:href="/assets/sprite.svg#calendar"
+            />
+          </svg>
+          11/11/2024
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

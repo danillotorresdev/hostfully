@@ -5,5 +5,5 @@ import { Button } from "./Button";
 it("render correctly", () => {
   render(<Button>Click</Button>);
   const result = screen.getByText(/Click/i);
-  expect(result).toBeDefined();
+  expect(result).toMatchSnapshot();
 });

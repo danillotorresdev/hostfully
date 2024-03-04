@@ -1,11 +1,11 @@
 import { PassengerCounterInput } from "./PassengersCounterWrapper";
 import { describe, expect, it, vi } from "vitest";
-import { render, fireEvent } from "@/utils/settings/tests/utilities";
+import { render, fireEvent, screen } from "@/utils/settings/tests/utilities";
 
 describe("PassengerCounterWrapper", () => {
   it("should show the correct number of passengers", () => {
     const onChangeMock = vi.fn();
-    const { getByText } = render(
+    const { asFragment } = render(
       <PassengerCounterInput
         onChange={onChangeMock}
         defaultValue={{
@@ -15,7 +15,8 @@ describe("PassengerCounterWrapper", () => {
       />,
     );
 
-    expect(getByText("1 passenger")).toBeDefined();
+    expect(asFragment()).toMatchSnapshot();
+    expect(screen.getByText("1 passenger")).toBeDefined();
   });
 
   it('calls onChange with correct passenger counts when "Select" button is clicked', () => {

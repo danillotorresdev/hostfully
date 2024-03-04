@@ -4,7 +4,7 @@ import * as S from "./PassengersCounterWrapper.styles";
 import {
   PassengerCount,
   PassengerCounter,
-} from "@/ui/components/PassengersCounter/PassengersCounter";
+} from "@/ui/components/PassengersCounterWrapper/PassengersCounter/PassengersCounter";
 import { useClickoutside } from "@/utils/hooks/useClickOutside/useClickoutside";
 
 type PassengerCounterProps = {

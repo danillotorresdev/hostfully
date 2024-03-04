@@ -1,5 +1,5 @@
 import { useAutoComplete } from "./useAutoComplete";
-import { beforeEach, describe, expect, it, test, vi } from "vitest";
+import { beforeEach, describe, expect, it, vi } from "vitest";
 import * as UseDebounce from "@/utils/hooks/useDebounce/useDebounce";
 import * as PlacesAutoCompleteSuggestions from "@/services/autoCompleteSuggestions/autoCompletesuggestions";
 import { placesMock } from "@/services/autoCompleteSuggestions/autoCompletesuggestions.mocks";
@@ -98,7 +98,7 @@ describe("useAutoComplete", () => {
     });
   });
 
-  test("should handle the select correctly", () => {
+  it("should handle the select correctly", () => {
     const { result } = renderHook(() => useAutoComplete());
 
     act(() => {

@@ -1,0 +1,20 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Input component > renders input field with label correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="mocked-styled-0 i19zws4p"
+  >
+    <label
+      class="mocked-styled-1 l5v2eyb"
+      for="Username"
+    >
+      Username
+    </label>
+    <input
+      class="mocked-styled-2 i1hv9n31"
+      id="Username"
+    />
+  </div>
+</DocumentFragment>
+`;

@@ -33,19 +33,13 @@ export const IntinetaryRoute = ({ booking, type }: IntinetaryRouteProps) => (
       </S.DateWrapper>
     </S.CardLeftContent>
     <S.CardRightContent>
-      <span title={type === "DEPARTURE" ? booking.origin : booking.destination}>
-        {type === "DEPARTURE"
-          ? limitCharacters(booking.origin, 20)
-          : limitCharacters(booking.destination, 20)}{" "}
-      </span>
+      <span title={booking.origin}>{limitCharacters(booking.origin, 20)} </span>
       <Icon
         name={type === "DEPARTURE" ? "arrow-foward" : "arrow-back"}
         size="sm"
       />{" "}
-      <span title={type === "DEPARTURE" ? booking.destination : booking.origin}>
-        {type === "DEPARTURE"
-          ? limitCharacters(booking.destination, 20)
-          : limitCharacters(booking.origin, 20)}
+      <span title={booking.destination}>
+        {limitCharacters(booking.destination, 20)}
       </span>
     </S.CardRightContent>
   </S.IntinetaryRoute>

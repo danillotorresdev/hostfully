@@ -1,0 +1,31 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`AutoCompleteInput component > should match snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="mocked-styled-0 i19zws4p"
+    >
+      <label
+        class="mocked-styled-1 l5v2eyb"
+        for="City"
+      >
+        City
+      </label>
+      <input
+        class="mocked-styled-2 i1hv9n31"
+        id="City"
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      class="mocked-styled-3 skesand"
+    >
+      <ul
+        class="mocked-styled-4 s1qvsmxh"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

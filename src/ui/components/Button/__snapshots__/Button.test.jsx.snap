@@ -1,0 +1,10 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`render correctly 1`] = `
+<button
+  class="mocked-styled-0 bb8cb6j"
+  style="--bb8cb6j-0: 40px; --bb8cb6j-1: 14px; --bb8cb6j-2: 12px 24px; --bb8cb6j-3: #2D2AA5; --bb8cb6j-4: #fff; --bb8cb6j-5: #40caa1;"
+>
+  Click
+</button>
+`;

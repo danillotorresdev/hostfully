@@ -144,6 +144,7 @@ exports[`HomePage > should render the component 1`] = `
                   >
                     <svg
                       class="svg svg-calendar"
+                      data-testid="icon-svg"
                       style="width: 24px; height: 24px;"
                       viewBox="0 0 1024 1024"
                       xmlns="http://www.w3.org/2000/svg"
@@ -152,13 +153,14 @@ exports[`HomePage > should render the component 1`] = `
                         xlink:href="/assets/sprite.svg#calendar"
                       />
                     </svg>
-                    Departure
+                    Check-in
                   </div>
                   <div
                     class="mocked-styled-10 d1xj2x14"
                   >
                     <svg
                       class="svg svg-calendar"
+                      data-testid="icon-svg"
                       style="width: 24px; height: 24px;"
                       viewBox="0 0 1024 1024"
                       xmlns="http://www.w3.org/2000/svg"
@@ -167,7 +169,7 @@ exports[`HomePage > should render the component 1`] = `
                         xlink:href="/assets/sprite.svg#calendar"
                       />
                     </svg>
-                    Return
+                    Check-out
                   </div>
                 </div>
               </div>
@@ -190,6 +192,7 @@ exports[`HomePage > should render the component 1`] = `
             >
               <svg
                 class="svg svg-member"
+                data-testid="icon-svg"
                 style="width: 24px; height: 24px;"
                 viewBox="0 0 1024 1024"
                 xmlns="http://www.w3.org/2000/svg"
@@ -256,6 +259,7 @@ exports[`HomePage > should render the component 1`] = `
               >
                 <svg
                   class="svg svg-edit"
+                  data-testid="icon-svg"
                   style="width: 24px; height: 24px;"
                   viewBox="0 0 1024 1024"
                   xmlns="http://www.w3.org/2000/svg"
@@ -272,6 +276,7 @@ exports[`HomePage > should render the component 1`] = `
               >
                 <svg
                   class="svg svg-trash"
+                  data-testid="icon-svg"
                   style="width: 24px; height: 24px;"
                   viewBox="0 0 1024 1024"
                   xmlns="http://www.w3.org/2000/svg"
@@ -295,6 +300,7 @@ exports[`HomePage > should render the component 1`] = `
                 <div>
                   <svg
                     class="svg svg-departure"
+                    data-testid="icon-svg"
                     style="width: 16px; height: 16px;"
                     viewBox="0 0 1024 1024"
                     xmlns="http://www.w3.org/2000/svg"
@@ -325,6 +331,7 @@ exports[`HomePage > should render the component 1`] = `
                 </span>
                 <svg
                   class="svg svg-arrow-foward"
+                  data-testid="icon-svg"
                   style="width: 16px; height: 16px;"
                   viewBox="0 0 1024 1024"
                   xmlns="http://www.w3.org/2000/svg"
@@ -350,6 +357,7 @@ exports[`HomePage > should render the component 1`] = `
                 <div>
                   <svg
                     class="svg svg-arrival"
+                    data-testid="icon-svg"
                     style="width: 16px; height: 16px;"
                     viewBox="0 0 1024 1024"
                     xmlns="http://www.w3.org/2000/svg"
@@ -373,13 +381,14 @@ exports[`HomePage > should render the component 1`] = `
                 class="mocked-styled-54 c1yloby"
               >
                 <span
-                  title="Great Pyramid of Giza"
+                  title="Cairo"
                 >
-                  Great Pyramid of Giz...
+                  Cairo
                    
                 </span>
                 <svg
                   class="svg svg-arrow-back"
+                  data-testid="icon-svg"
                   style="width: 16px; height: 16px;"
                   viewBox="0 0 1024 1024"
                   xmlns="http://www.w3.org/2000/svg"
@@ -390,9 +399,9 @@ exports[`HomePage > should render the component 1`] = `
                 </svg>
                  
                 <span
-                  title="Cairo"
+                  title="Great Pyramid of Giza"
                 >
-                  Cairo
+                  Great Pyramid of Giz...
                 </span>
               </div>
             </div>
@@ -402,6 +411,7 @@ exports[`HomePage > should render the component 1`] = `
           >
             <svg
               class="svg svg-members"
+              data-testid="icon-svg"
               style="width: 16px; height: 16px;"
               viewBox="0 0 1024 1024"
               xmlns="http://www.w3.org/2000/svg"
@@ -441,6 +451,7 @@ exports[`HomePage > should render the component 1`] = `
               >
                 <svg
                   class="svg svg-edit"
+                  data-testid="icon-svg"
                   style="width: 24px; height: 24px;"
                   viewBox="0 0 1024 1024"
                   xmlns="http://www.w3.org/2000/svg"
@@ -457,6 +468,7 @@ exports[`HomePage > should render the component 1`] = `
               >
                 <svg
                   class="svg svg-trash"
+                  data-testid="icon-svg"
                   style="width: 24px; height: 24px;"
                   viewBox="0 0 1024 1024"
                   xmlns="http://www.w3.org/2000/svg"
@@ -480,6 +492,7 @@ exports[`HomePage > should render the component 1`] = `
                 <div>
                   <svg
                     class="svg svg-departure"
+                    data-testid="icon-svg"
                     style="width: 16px; height: 16px;"
                     viewBox="0 0 1024 1024"
                     xmlns="http://www.w3.org/2000/svg"
@@ -510,6 +523,7 @@ exports[`HomePage > should render the component 1`] = `
                 </span>
                 <svg
                   class="svg svg-arrow-foward"
+                  data-testid="icon-svg"
                   style="width: 16px; height: 16px;"
                   viewBox="0 0 1024 1024"
                   xmlns="http://www.w3.org/2000/svg"
@@ -535,6 +549,7 @@ exports[`HomePage > should render the component 1`] = `
                 <div>
                   <svg
                     class="svg svg-arrival"
+                    data-testid="icon-svg"
                     style="width: 16px; height: 16px;"
                     viewBox="0 0 1024 1024"
                     xmlns="http://www.w3.org/2000/svg"
@@ -558,13 +573,14 @@ exports[`HomePage > should render the component 1`] = `
                 class="mocked-styled-54 c1yloby"
               >
                 <span
-                  title="Mausoleum at Halicarnassus"
+                  title="Bodrum"
                 >
-                  Mausoleum at Halicar...
+                  Bodrum
                    
                 </span>
                 <svg
                   class="svg svg-arrow-back"
+                  data-testid="icon-svg"
                   style="width: 16px; height: 16px;"
                   viewBox="0 0 1024 1024"
                   xmlns="http://www.w3.org/2000/svg"
@@ -575,9 +591,9 @@ exports[`HomePage > should render the component 1`] = `
                 </svg>
                  
                 <span
-                  title="Bodrum"
+                  title="Mausoleum at Halicarnassus"
                 >
-                  Bodrum
+                  Mausoleum at Halicar...
                 </span>
               </div>
             </div>
@@ -587,6 +603,7 @@ exports[`HomePage > should render the component 1`] = `
           >
             <svg
               class="svg svg-members"
+              data-testid="icon-svg"
               style="width: 16px; height: 16px;"
               viewBox="0 0 1024 1024"
               xmlns="http://www.w3.org/2000/svg"

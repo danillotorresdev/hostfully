@@ -1,16 +1,17 @@
 import { HeaderComponent } from "./Header";
-import { describe, expect, it} from "vitest";
+import { describe, expect, it } from "vitest";
 
-import { render } from "@/utils/settings/tests/utilities";
+import { render, screen } from "@/utils/settings/tests/utilities";
 
 describe("Header", () => {
   it("should render the header", () => {
-    const { getByText } = render(<HeaderComponent />);
+    const { asFragment } = render(<HeaderComponent />);
 
-    const homeAnchor = getByText("Home");
-    const aboutAnchor = getByText("About");
-    const contactAnchor = getByText("Contact");
+    const homeAnchor = screen.getByText("Home");
+    const aboutAnchor = screen.getByText("About");
+    const contactAnchor = screen.getByText("Contact");
 
+    expect(asFragment()).toMatchSnapshot();
     expect(homeAnchor).toBeDefined();
     expect(aboutAnchor).toBeDefined();
     expect(contactAnchor).toBeDefined();

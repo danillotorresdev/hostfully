@@ -1,0 +1,194 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Itinerary component > renders booking details correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="mocked-styled-0 csr9ikx"
+  >
+    <div
+      class="mocked-styled-1 cx2fecm"
+    >
+      <span
+        class="mocked-styled-3 ta36wq1"
+      >
+        Los Angeles
+      </span>
+      <span
+        class="mocked-styled-4 s1a79fbf"
+      >
+        Booking for 2 Adults and 1 Child  | Feb 29, 2024 to Mar 4, 2024
+      </span>
+      <div
+        class="mocked-styled-2 c16asigh"
+      >
+        <button
+          class="mocked-styled-8 bb8cb6j"
+          style="--bb8cb6j-0: 40px; --bb8cb6j-1: 14px; --bb8cb6j-2: 0; --bb8cb6j-3: transparent; --bb8cb6j-4: #2D2AA5; --bb8cb6j-5: none;"
+          title="Edit booking"
+        >
+          <svg
+            class="svg svg-edit"
+            data-testid="icon-svg"
+            style="width: 24px; height: 24px;"
+            viewBox="0 0 1024 1024"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <use
+              xlink:href="/assets/sprite.svg#edit"
+            />
+          </svg>
+        </button>
+        <button
+          class="mocked-styled-8 bb8cb6j"
+          style="--bb8cb6j-0: 40px; --bb8cb6j-1: 14px; --bb8cb6j-2: 0; --bb8cb6j-3: transparent; --bb8cb6j-4: #2D2AA5; --bb8cb6j-5: none;"
+          title="Delete booking"
+        >
+          <svg
+            class="svg svg-trash"
+            data-testid="icon-svg"
+            style="width: 24px; height: 24px;"
+            viewBox="0 0 1024 1024"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <use
+              xlink:href="/assets/sprite.svg#trash"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div
+      class="mocked-styled-6 c6r2qql"
+    >
+      <div
+        class="mocked-styled-9 ix3zkq7"
+      >
+        <div
+          class="mocked-styled-10 c1n5q6aa"
+        >
+          <div>
+            <svg
+              class="svg svg-departure"
+              data-testid="icon-svg"
+              style="width: 16px; height: 16px;"
+              viewBox="0 0 1024 1024"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <use
+                xlink:href="/assets/sprite.svg#departure"
+              />
+            </svg>
+             
+            <b>
+              Departure
+            </b>
+          </div>
+          <span
+            class="mocked-styled-11 dsggpze"
+          >
+            Thu, Feb 29, 2024
+          </span>
+        </div>
+        <div
+          class="mocked-styled-12 c1yloby"
+        >
+          <span
+            title="New York"
+          >
+            New York 
+          </span>
+          <svg
+            class="svg svg-arrow-foward"
+            data-testid="icon-svg"
+            style="width: 16px; height: 16px;"
+            viewBox="0 0 1024 1024"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <use
+              xlink:href="/assets/sprite.svg#arrow-foward"
+            />
+          </svg>
+           
+          <span
+            title="Los Angeles"
+          >
+            Los Angeles
+          </span>
+        </div>
+      </div>
+      <div
+        class="mocked-styled-9 ix3zkq7"
+      >
+        <div
+          class="mocked-styled-10 c1n5q6aa"
+        >
+          <div>
+            <svg
+              class="svg svg-arrival"
+              data-testid="icon-svg"
+              style="width: 16px; height: 16px;"
+              viewBox="0 0 1024 1024"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <use
+                xlink:href="/assets/sprite.svg#arrival"
+              />
+            </svg>
+             
+            <b>
+              Return
+            </b>
+          </div>
+          <span
+            class="mocked-styled-11 dsggpze"
+          >
+            Mon, Mar 4, 2024
+          </span>
+        </div>
+        <div
+          class="mocked-styled-12 c1yloby"
+        >
+          <span
+            title="New York"
+          >
+            New York 
+          </span>
+          <svg
+            class="svg svg-arrow-back"
+            data-testid="icon-svg"
+            style="width: 16px; height: 16px;"
+            viewBox="0 0 1024 1024"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <use
+              xlink:href="/assets/sprite.svg#arrow-back"
+            />
+          </svg>
+           
+          <span
+            title="Los Angeles"
+          >
+            Los Angeles
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="mocked-styled-7 c1wkgrf8"
+    >
+      <svg
+        class="svg svg-members"
+        data-testid="icon-svg"
+        style="width: 16px; height: 16px;"
+        viewBox="0 0 1024 1024"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <use
+          xlink:href="/assets/sprite.svg#members"
+        />
+      </svg>
+      2 Adults and 1 Child
+    </div>
+  </div>
+</DocumentFragment>
+`;

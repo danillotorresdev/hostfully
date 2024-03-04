@@ -5,6 +5,15 @@ import * as BookingContext from "@/contexts/BookingContext/BookingContext";
 import { render, screen, fireEvent } from "@/utils/settings/tests/utilities";
 
 describe("BookingList", () => {
+  it("should match snapshot", () => {
+    const { asFragment } = render(
+      <BookingContext.BookingProvider>
+        <BookingList />
+      </BookingContext.BookingProvider>,
+    );
+    expect(asFragment()).toMatchSnapshot();
+  });
+  
   describe("No bookings", () => {
     it("should show no bookings message and delete booking", async () => {
       render(

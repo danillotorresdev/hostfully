@@ -44,6 +44,11 @@ describe("BookingForm", () => {
     );
   });
 
+  it("should match snapshot", () => {
+    const { asFragment } = render(<BookingForm />);
+    expect(asFragment()).toMatchSnapshot();
+  });
+
   describe("Create Booking", () => {
     it("should submit the form", async () => {
       vi.useFakeTimers();

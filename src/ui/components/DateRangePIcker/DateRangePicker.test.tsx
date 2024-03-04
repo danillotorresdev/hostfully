@@ -17,10 +17,10 @@ describe("DateRangePicker", () => {
 
     const onSelectMock = vi.fn();
 
-    render(
+    const { asFragment } = render(
       <DateRangePicker onSelect={onSelectMock} defaultValue={defaultValues} />,
     );
-
+    expect(asFragment()).toMatchSnapshot();
     expect(screen.getByText("9/11/2024")).toBeDefined();
     expect(screen.getByText("11/11/2024")).toBeDefined();
   });
